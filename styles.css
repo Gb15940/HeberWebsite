@@ -19,19 +19,19 @@ header {
 }
 
 #home {
-     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(Images/HERO-img-#1-Mountain.jpg);
+     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(Images/home-HERO.jpg);
      background-position: center bottom;
      background-attachment: fixed;
 }
 
 #activ {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(Images/HERO-img-#2-Railroad.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(Images/railroad-activities-HERO.jpg);
     background-position: center bottom;
     background-attachment: fixed;
 }
 
 #wethr {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(Images/winter-\HERO-img-#3\.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(Images/weather-HERO.jpg);
     background-position: center bottom;
     background-attachment: fixed;
 }
@@ -96,6 +96,9 @@ article {
     font-size: 25px;
     text-align: center;
     color: rgb(0, 0, 0);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home {
