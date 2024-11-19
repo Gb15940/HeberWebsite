@@ -37,7 +37,7 @@ header {
 }
 
 #autmn {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/FALL-\HERO-img-#4\.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/FALL-HERO.jpg);
     background-position: center bottom;
     background-attachment: fixed;
 }
@@ -57,11 +57,13 @@ body {
 nav>ul {
     display: flex;
     list-style-type: none;
+    margin: 0%;
     padding: 0%;
     align-items: center;
     justify-content: center;
     background-color: #b3b3b3;
-
+    position: sticky;
+    top: 0;
 }
 
 nav>ul>li {
@@ -76,6 +78,7 @@ nav>ul>li:hover {
 nav>ul>li>a {
     text-decoration: none;
     color: white;
+    font-family: "Comic Sans MS";
 }
 
 #active {
@@ -102,24 +105,23 @@ article {
 }
 
 .home {
-
+    display: flex;
+    padding: 10px;
 }
 
 .activity {
-
+    display: flex;
+    padding: 10px;
 }
 
 .weather {
-    
+    display: flex;
+    padding: 10px;
 }
 
 .fall {
-
-}
-
-.image {
-    display: block;
-    margin: auto;
+    display: flex;
+    padding: 10px;
 }
 
 .footer-flex {
@@ -135,7 +137,8 @@ footer>p {
 
 img {
     display: inline-block;
-    width: 30%;
     margin-left: auto;
     margin-right: auto;
+    width: 500px;
+    margin-top: 50px;
 }
