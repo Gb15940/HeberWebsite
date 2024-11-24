@@ -52,7 +52,6 @@ header {
 /* #endregion */
 
 /* #region Nav */
-
 nav>ul {
     display: flex;
     list-style-type: none;
@@ -61,8 +60,8 @@ nav>ul {
     align-items: center;
     justify-content: center;
     background-color: #b3b3b3;
-    position: sticky;
     top: 0;
+    position: -webkit-sticky;
 }
 
 nav>ul>li {
